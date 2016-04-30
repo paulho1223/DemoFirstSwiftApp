@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66B67561CD4B1B5008EC14E /* song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B66B67551CD4B1B5008EC14E /* song.m4a */; };
 		B68FADB01CD4590300CCAEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FADAF1CD4590300CCAEB5 /* AppDelegate.swift */; };
 		B68FADB21CD4590300CCAEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FADB11CD4590300CCAEB5 /* ViewController.swift */; };
 		B68FADB51CD4590300CCAEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FADB31CD4590300CCAEB5 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B66B67551CD4B1B5008EC14E /* song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.m4a; sourceTree = "<group>"; };
 		B68FADAC1CD4590300CCAEB5 /* DemoFirstAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFirstAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68FADAF1CD4590300CCAEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B68FADB11CD4590300CCAEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				B68FADB11CD4590300CCAEB5 /* ViewController.swift */,
 				B68FADB31CD4590300CCAEB5 /* Main.storyboard */,
 				B68FADB61CD4590300CCAEB5 /* Assets.xcassets */,
+				B66B67551CD4B1B5008EC14E /* song.m4a */,
 				B68FADB81CD4590300CCAEB5 /* LaunchScreen.storyboard */,
 				B68FADBB1CD4590300CCAEB5 /* Info.plist */,
 			);
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					B68FADAB1CD4590300CCAEB5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43AKM2JDL4;
 					};
 					B68FADBF1CD4590300CCAEB5 = {
 						CreatedOnToolsVersion = 7.3;
@@ -232,6 +236,7 @@
 				B68FADBA1CD4590300CCAEB5 /* LaunchScreen.storyboard in Resources */,
 				B68FADB71CD4590300CCAEB5 /* Assets.xcassets in Resources */,
 				B68FADB51CD4590300CCAEB5 /* Main.storyboard in Resources */,
+				B66B67561CD4B1B5008EC14E /* song.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoFirstAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solola.DemoFirstAPP;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoFirstAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solola.DemoFirstAPP;
@@ -482,6 +489,7 @@
 				B68FADD61CD4590300CCAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68FADD71CD4590300CCAEB5 /* Build configuration list for PBXNativeTarget "DemoFirstAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				B68FADD91CD4590300CCAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68FADDA1CD4590300CCAEB5 /* Build configuration list for PBXNativeTarget "DemoFirstAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				B68FADDC1CD4590300CCAEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
